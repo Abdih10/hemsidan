@@ -1001,6 +1001,18 @@
   "resolved" "https://registry.npmjs.org/@soda/get-current-script/-/get-current-script-1.0.2.tgz"
   "version" "1.0.2"
 
+"@splidejs/splide@^3.6.1":
+  "integrity" "sha512-PMBgwBqo6n3FvSQHQf0vayTxVRM0wEvMrdUkFl5mqNrrcc5F57EJKyuDElwgyPXi++eQSgQi/C5Umyshx9RR8Q=="
+  "resolved" "https://registry.npmjs.org/@splidejs/splide/-/splide-3.6.6.tgz"
+  "version" "3.6.6"
+
+"@splidejs/vue-splide@^0.5.13":
+  "integrity" "sha512-rI4ze2zASpVHtMDFWL/HI497LMDgPiMbqYR8Q0vN75FkplF0VOgSGdG0DEAaR4I501dKGpF9A0usIiAkPmBFBA=="
+  "resolved" "https://registry.npmjs.org/@splidejs/vue-splide/-/vue-splide-0.5.13.tgz"
+  "version" "0.5.13"
+  dependencies:
+    "@splidejs/splide" "^3.6.1"
+
 "@tailwindcss/postcss7-compat@^2.2.17":
   "integrity" "sha512-3h2svqQAqYHxRZ1KjsJjZOVTQ04m29LjfrLjXyZZEJuvUuJN+BCIF9GI8vhE1s0plS0mogd6E6YLg6mu4Wv/Vw=="
   "resolved" "https://registry.npmjs.org/@tailwindcss/postcss7-compat/-/postcss7-compat-2.2.17.tgz"
