@@ -55,21 +55,21 @@
         <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
           <li class="flex items-center">
             <router-link
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-s font-bold"
               :to="{ name: 'Home' }"
               >Home</router-link
             >
           </li>
           <li class="flex items-center">
             <router-link
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-s font-bold"
               :to="{ name: 'Utryckningsrapporter' }"
               >Utryckningsrapporter</router-link
             >
           </li>
           <li class="flex items-center">
             <router-link
-              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs font-bold"
+              class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-s font-bold"
               :to="{ name: 'Contact' }"
               >Contact</router-link
             >
