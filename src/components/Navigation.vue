@@ -47,6 +47,17 @@
             :to="{ name: 'Contact' }"
             >Contact</router-link
           >
+          <button
+            class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+            type="button"
+            style="transition: all 0.15s ease 0s"
+          >
+            <router-link
+              class="lg:text-blue lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-s font-bold"
+              :to="{ name: 'Login' }"
+              >Login</router-link
+            >
+          </button>
         </div>
 
         <!-- mobile button goes here -->
@@ -88,23 +99,31 @@
         :to="{ name: 'Contact' }"
         >Contact</router-link
       >
-      <router-link
-        to="/link"
-        class="block ml-4 mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white"
-        >Login</router-link
+      <button
+        class="bg-white text-gray-800 active:bg-gray-100 text-xs font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+        type="button"
+        style="transition: all 0.15s ease 0s"
       >
+        <router-link
+          class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-s font-bold"
+          :to="{ name: 'Login' }"
+          >Login</router-link
+        >
+      </button>
     </div>
   </nav>
 </template>
 <script>
 export default {
   name: "Navigation",
+  // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
   data() {
     return {
       showMenu: false,
     };
   },
   methods: {
+    // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
     toggleNavbar: function () {
       const btn = document.querySelector(".mobile-menu-button");
       const menu = document.querySelector(".mobile-menu");
