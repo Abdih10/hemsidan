@@ -88,6 +88,11 @@
         :to="{ name: 'Contact' }"
         >Contact</router-link
       >
+      <router-link
+        to="/link"
+        class="block ml-4 mt-4 lg:inline-block lg:mt-0 text-blue-200 hover:text-white"
+        >Login</router-link
+      >
     </div>
   </nav>
 </template>
@@ -100,8 +105,8 @@ export default {
     };
   },
   methods: {
-    toggleNavbar: function () { 
-    const btn = document.querySelector(".mobile-menu-button");
+    toggleNavbar: function () {
+      const btn = document.querySelector(".mobile-menu-button");
       const menu = document.querySelector(".mobile-menu");
       btn.addEventListener("click", () => {
         menu.classList.toggle("hidden");
