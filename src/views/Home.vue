@@ -1,22 +1,22 @@
 <template>
-  <div class="home">
+  <main>
+    <Splide />
     <VueCalendar />
-  </div>
-  <Sections />
-  <Footer />
+    <Sections />
+  </main>
 </template>
 
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
+import Splide from "../components/Splide.vue";
 import VueCalendar from "../components/VueCalendar.vue";
 import Sections from "../components/Sections.vue";
-import Footer from "../components/Footer.vue";
 
 @Options({
   components: {
+    Splide,
     VueCalendar,
     Sections,
-    Footer,
   },
 })
 export default class Home extends Vue {}
