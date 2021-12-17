@@ -28,7 +28,7 @@
           </svg>
           <span class="font-bold">PSS Skolan?</span> </a
         ><button
-          class="flex items-center px-3 py-2 border rounded text-gray-100 border-gray-200 hover:text-white hover:border-white"
+          class="cursor-pointer text-xl leading-none flex items-center px-3 py-2 border rounded text-gray-100 border-gray-200 hover:text-white hover:border-white border-transparent bg-transparent lg:hidden outline-none focus:outline-none"
           type="button"
           v-on:click="toggleNavbar()"
         >
