@@ -1,5 +1,8 @@
 <template>
-  <section id="contact" class="contact">
+  <section
+    id="contact"
+    class="contact flex flex-col h-screen my-auto items-center bgimg bg-cover"
+  >
     <div class="container">
       <div class="mb-4">
         <h2 class="font-bold text-4xl text-gray-800">Contact Us</h2>
