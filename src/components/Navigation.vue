@@ -1,6 +1,6 @@
 <template>
   <nav
-    class=" sticky top-0 z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 bg-gray-600"
+    class="sticky top-0 z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 bg-gray-600"
   >
     <div
       class="container px-4 mx-auto flex flex-wrap items-center justify-between"
@@ -28,7 +28,7 @@
           </svg>
           <span class="font-bold">PSS Skolan?</span> </a
         ><button
-          class="cursor-pointer text-xl leading-none px-3 py-1 border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          class="flex items-center px-3 py-2 border rounded text-gray-100 border-gray-200 hover:text-white hover:border-white"
           type="button"
           v-on:click="toggleNavbar()"
         >
