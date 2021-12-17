@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-gray-100">
+  <footer class="bg-gray-100 fixed inset-x-0 bottom-0 p-4">
     <div class="container mx-auto px-6 pt-10 pb-6">
       <div class="flex flex-wrap">
         <div class="w-full md:w-1/4 text-center md:text-left">
