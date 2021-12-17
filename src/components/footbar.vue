@@ -74,20 +74,20 @@
           </ul>
         </div>
         <div class="w-full md:w-1/4 text-center md:text-left">
-          <h5 class="uppercase mb-6 font-bold">Company</h5>
+          <h5 class="uppercase mb-6 font-bold">PT-Teknik</h5>
           <ul class="mb-4">
             <li class="mt-2">
               <a
                 href="#"
                 class="hover:underline text-gray-600 hover:text-orange-500"
-                >Official Blog</a
+                >Home</a
               >
             </li>
             <li class="mt-2">
               <a
                 href="#"
                 class="hover:underline text-gray-600 hover:text-orange-500"
-                >About Us</a
+                >Utryckningsrapporter</a
               >
             </li>
             <li class="mt-2">

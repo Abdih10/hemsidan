@@ -20,7 +20,7 @@
                   </h2>
                   <p class="text-gray-400">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua.
                     aliqua. Ut enim ad minim veniam, quis nostrud exercitation
                     ullamco laboris nisi ut aliquip ex ea commodo consequat.
                   </p>
@@ -81,7 +81,7 @@
                 Nyhetsbrev
               </h2>
               <div class="text-gray-300 mb-8">
-                Subscribe our weely Newsletter to get regular updates about our
+                Subscribe our weekly Newsletter to get regular updates about our
                 systems.
               </div>
               <div class="flex">
@@ -105,7 +105,8 @@
       >
         <div class="container mx-auto px-6 lg:px-20 py-6">
           <div class="flex justify-center text-gray-300 mb-1">
-            <span class="font-bold">PT-Teknik.</span>
+            © 2021 <span class="font-bold"> PT-Teknik </span> 2021 All right
+            reserved.
           </div>
           <div class="flex font-light justify-center text-gray-500 text-sm">
             <p>Designed by <span class="font-bold">PT-Teknik</span></p>
