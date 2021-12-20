@@ -1,3 +1,5 @@
+<!-- Det här är en tredje part plugin som jag har laddat ner till projektet för att skapa slides för nyhterna som ska vara i. -->
+<!-- https://splidejs.com/integration/vue-splide/ -->
 <template>
   <div class="carousel-inner relative w-full overflow-">
     <div class="carousel-item active relative float-left w-full">
@@ -5,21 +7,15 @@
 
       <Splide :options="options" has-slider-wrapper>
         <SplideSlide>
-          <img
-            src="https://cdn.mos.cms.futurecdn.net/2NBcYamXxLpvA77ciPfKZW-970-80.jpg.webp"
-          />
+          <img src="" />
         </SplideSlide>
 
         <SplideSlide>
-          <img
-            src="https://heroichollywood.com/wp-content/uploads/2021/02/Zack_Snyder_Justice_League_Henry_Cavill_Superman.jpg"
-          />
+          <img src="" />
         </SplideSlide>
 
         <SplideSlide>
-          <img
-            src="https://allfilmskases.com/wp-content/uploads/2019/02/iron-man-cool-guys-dont-look-at-explosions-222059.jpg"
-          />
+          <img src="" />
         </SplideSlide>
 
         <template #after-slider>
@@ -28,7 +24,7 @@
           </div>
 
           <div class="splide__autoplay">
-            <button class="splide__play ">Play</button>
+            <button class="splide__play">Play</button>
             <button class="splide__pause">Pause</button>
           </div>
         </template>

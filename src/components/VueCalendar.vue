@@ -1,3 +1,6 @@
+<!-- Det här är en tredje part plugin som jag har laddat ner till projektet för att skapa en personlig kalender för dom på jobbet. -->
+<!-- https://antoniandre.github.io/vue-cal/?ref=madewithvuejs.com#api -->
+
 <template>
   <div>
     <vue-cal
