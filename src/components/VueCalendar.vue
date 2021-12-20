@@ -1,19 +1,11 @@
 <template>
   <div>
     <vue-cal
-      class="vuecal--blue-theme"
-      selected-date="2021-12-17"
-      :time-from="9 * 60"
-      :time-to="20 * 60"
-      :disable-views="['years', 'year']"
-      active-view="week"
+      :time="false"
       hide-weekends
-      events-on-month-view="short"
-      :events="events"
-      style="height: 600px"
-    >
-      >
-    </vue-cal>
+      class="vuecal--rounded-theme vuecal--blue-theme"
+      style="width: 600px; height: 400px"
+    ></vue-cal>
   </div>
 </template>
 <script>
